@@ -25,30 +25,32 @@ Rock–paper–scissors (also known as scissors-paper-rock or other variants) is
 ## File Organization 🗄️
 
 ```shell
-├── EmojiGram Parent (Current Directory)
-    ├── EmojiGram_V1/
-        ├── Emojigram_emo/ : Emoji Directory 
+├── Rock-Paper-Scissors-Lizard-Spock Parent (Current Directory)
+    ├── Rock-Paper-Scissors-Lizard-Spock_V1/
+        ├── RPS_emo/ : Emoji Directory 
             ├── 0.png
             .
             .
             └── 12.png
-        ├── Emojigram_logs/ : Tensorboard Directory
-        ├── Emojigram_App.py : Emojigram Application
-        ├── Emojigram_DataLoader.py : Data Loader
-        ├── Emojigram_Model.py : Emojigram Model Trainer
+        ├── RPS_data/ : Data Folder
+            ├── 0/
+            ├── 1/
+            .
+            .
+            .
+            └──11/
+        ├── RPS_logs/ : Tensorboard Directory
+        ├── RPS_App.py : Emojigram Application
+        ├── CreateCSV.py : Data Loader
+        ├── RPS_Model.py : Emojigram Model Trainer
         ├── requirements.txt
         └── readme.md
-    ├── EmojiGram_V1/
+    ├── Rock-Paper-Scissors-Lizard-Spock_V2/
         └── TBA
     ├── LICENSE
     └── readme.md
         
 ```
-
-### Contributors 🔥
-
-1) [Akshay Bahadur](https://github.com/akshaybahadur21/)
-2) [Raghav Patnecha](https://github.com/raghavpatnecha)
  
 ## Results 📊 
 <img src="https://github.com/akshaybahadur21/BLOB/blob/master/RPS.gif">
